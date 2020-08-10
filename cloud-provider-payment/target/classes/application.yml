@@ -1,0 +1,39 @@
+server:
+  port: 8001
+spring:
+  application:
+    name: cloud-provider-payment
+  data:
+    mongodb:
+      password: '123456'
+      username: tp
+      database: account
+      host: localhost
+      port: 27017
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver  # oracle.jdbc.OracleDriver
+    url:  jdbc:mysql://192.168.119.12:3306/userAccount  # jdbc:oracle:thin://localhost/orcl
+    username: root #scott
+    password: 123456
+    type: com.alibaba.druid.pool.DruidDataSource
+  jpa:
+    hibernate:
+      ddl-auto: update
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+    sentinel:
+      transport:
+        dashboard: 127.0.0.1:8080
+        port: 8719
+    alibaba:
+      seata:
+        tx-service-group: test-group
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    database: 0
+

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cloud-test-mongodb" />
+        <module name="cloud-flowable-demo" />
+        <module name="cloud-change-yaml" />
+        <module name="cloud-provider-payment" />
+        <module name="cloud-websocket-demo" />
+        <module name="cloud-provider-storage" />
+        <module name="cloud-consumer-order" />
+        <module name="cloud-common-api" />
+        <module name="cloud-flowable" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8" />
+  </component>
+</project>

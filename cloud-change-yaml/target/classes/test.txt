@@ -1,0 +1,26 @@
+server: 
+  port: 88
+userInfo: 
+  name: 王五
+  age: 13
+  hibbit: 
+    - book
+
+    - baseketball
+
+  like: 
+    one: 
+      two: like
+server: 
+  port: 88
+userInfo: 
+  name: 王五
+  age: 13
+  hibbit: 
+    - book
+
+    - baseketball
+
+  like: 
+    one: 
+      two: like

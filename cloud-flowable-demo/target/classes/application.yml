@@ -1,0 +1,10 @@
+server:
+  port: 6001
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: tp
+    password: 123456
+    url: jdbc:postgresql://localhost:5432/testdb
+flowable:
+  async-executor-activate: false #关闭定时任务JOB
